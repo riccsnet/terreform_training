@@ -47,7 +47,7 @@ resource "aws_instance" "web" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-ce92e593"
   vpc_security_group_ids = ["sg-3ee83749"]
-  count                  = "2"
+  count                  = "3"
 
   tags {
     Identity = "customer-training-human"
