@@ -18,8 +18,6 @@
 #     customer-training-human
 #
 
-varible "helpme" {}
-
 terraform {
   backend "atlas" {
     name       = "riccsnet/training"
